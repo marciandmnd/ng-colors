@@ -1,0 +1,87 @@
+[
+  {
+    "name":"Soft Red", 
+    "hex": "#EC644B",
+    "family": "reds"
+  },
+  {
+    "name":"Chestnut Rose", 
+    "hex": "#D24D57",
+    "family": "reds"
+  },
+  {
+    "name":"Pomegranate", 
+    "hex": "#F22613",
+    "family": "reds"
+  },
+  {
+    "name":"Thunderbird", 
+    "hex": "#D91E18",
+    "family": "reds"
+  },
+  {
+    "name":"Old Brick", 
+    "hex": "#96281B",
+    "family": "reds"
+  },
+  {
+    "name":"Flamingo", 
+    "hex": "#EF4836",
+    "family": "reds"
+  },
+  {
+    "name":"Valencia", 
+    "hex": "#D64541",
+    "family": "reds"
+  },
+  {
+    "name":"Tall Poppy", 
+    "hex": "#C0392B",
+    "family": "reds"
+  },
+  {
+    "name":"Monza", 
+    "hex": "#CF000F",
+    "family": "reds"
+  },
+  {
+    "name":"Cinnabar", 
+    "hex": "#E74C3C",
+    "family": "reds"
+  },
+  {
+    "name":"Razmatazz",
+    "hex": "#DB0A5B",
+    "family":"pinks"
+  },
+  {
+    "name":"Sunset Orange",
+    "hex": "#F64747",
+    "family":"pinks"
+  },
+  {
+    "name":"Wax Flower",
+    "hex": "#F1A9A0",
+    "family":"pinks"
+  },
+  {
+    "name":"Cabaret",
+    "hex": "#D2527F",
+    "family":"pinks"
+  },
+  {
+    "name":"New York Pink",
+    "hex": "#E08283",
+    "family":"pinks"
+  },
+  {
+    "name":"Radical Red",
+    "hex": "#F62459",
+    "family":"pinks"
+  },
+  {
+    "name":"Sunglo",
+    "hex": "#E26A6A",
+    "family":"pinks"
+  }
+]

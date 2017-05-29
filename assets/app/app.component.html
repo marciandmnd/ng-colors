@@ -1,0 +1,12 @@
+<div class="container-fluid">
+  <h1>Flat UI Colors</h1>
+  <ul class="nav nav-pills" >
+  <li role="presentation" *ngFor="let family of colorFamilies" (click)="setFamily(family)" class="active"><a href="#">{{ family }}</a></li>
+  </ul>
+  <div  class="color col-md-2" 
+        *ngFor="let color of colors | colorFamily: colorFamily"
+        [ngStyle]="{'background-color': color.hex}"
+        >
+    {{ color.name }}
+  </div>
+</div>
