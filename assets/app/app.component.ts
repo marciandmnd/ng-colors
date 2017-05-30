@@ -11,7 +11,7 @@ import { ColorService } from './color/color.service';
 export class AppComponent implements OnInit {
   colors: Color[] = [];
   colorFamilies: string[] = ['reds', 'pinks'];
-  colorFamily: string = "";
+  activeFamilies: string[] = [];
 
   constructor(private colorService: ColorService) {}
 
@@ -24,11 +24,26 @@ export class AppComponent implements OnInit {
       );
   }
 
-  setFamily(f) {
-    this.colorFamily = f;
+  isActive(f) {
+    if(this.activeFamilies.length > 0) {
+      let famStr = this.activeFamilies.join('|');
+      let re = new RegExp(famStr);
+      // return false;
+      return re.test(f);
+    } else {
+      return false;
+    }
   }
-  // toggleFamily() {
-  //   let currFamily = this.colorFamily;
-  //   this.colorFamily =  currFamily == 'reds' ? 'blues' : 'reds';
-  // }
+  toggleFamily(f) {
+    let temp = this.activeFamilies.slice();
+    // let famStr = temp.join('|');
+    // let re = new RegExp(famStr);
+    if(temp.includes(f)) {
+      temp.splice(temp.indexOf(f), 1);
+    }
+    else {
+      temp.push(f);
+    }
+    this.activeFamilies = temp;
+  }
 }
